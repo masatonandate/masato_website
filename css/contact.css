@@ -1,0 +1,15 @@
+.container_image {
+    display: inline-block;
+    width: 5rem;
+}
+.container_title {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+.contact_individual{
+    margin: 1rem;
+    border: #6AA695 solid 0.5rem;
+}
+.contact_title{
+    text-align: center;
+}

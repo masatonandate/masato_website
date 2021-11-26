@@ -1,0 +1,29 @@
+.blog_title {
+    text-align: center;
+}
+.blog_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.blog_entry {
+    border: #6AA695 solid 0.5rem;
+    width: 40rem;
+    /* min-width: 40rem; */
+    margin: 1rem;
+    
+}
+
+.blog_image {
+    display: block;
+    width: 25rem;
+    height: 15rem;
+    margin: 1rem auto;
+    object-fit: contain;
+}
+
+.blog_entry_header {
+    text-align: center;
+}
