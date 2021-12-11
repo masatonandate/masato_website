@@ -1,0 +1,82 @@
+main {
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 3rem;
+}
+
+.main_title{
+    background-color: #58C1BF;
+    /* background-color: #CC0066; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+    
+
+}
+
+.home_image_wrapper{
+    position:relative;
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 1rem 8rem 1rem auto;
+    
+}
+
+.home_image{
+    width: 100%;
+    height: auto;
+
+}
+
+
+.name_title{
+    /* vertical-align: middle;
+    display: inline-block; */
+    margin-left: 8rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+
+}
+
+.Masato_Name{
+    font-style: oblique;
+    /* color: #3CA19F; */
+    color: black;
+    text-shadow: 
+    0.05em 0.05em 0 #3CA19F;
+    
+}
+
+.key_skills_title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 30px;
+}
+
+.key_skills_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key_skills{
+    text-align: center;
+    vertical-align: auto;
+    align-self: flex-end;
+    padding: 1rem;
+}
+
+.logo_image{
+    width: 10rem;
+    height: auto;
+}
+
+
+p{
+    display: inline-block;
+    font-size: 20px;
+    
+}

@@ -3,20 +3,37 @@
     --background_color: #347367;
     --box_1_color: #6AA695;
     --box_2_color: #B8D9C6;
+    
 
 }
 
-body {
-    margin: 0;
-    background-color: whitesmoke;
-}
+
 
 /* Header/Navigation */
 .homepage_header {
     background-color: var(--box_2_color);
     font-size: 20px;
+    /* text-align: center; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0.5rem;
     margin: 0 0 0.5rem 0;
+}
+
+.homepage_headertwo{
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.homepage_link {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 0.5rem;
+    
+}
+a{
+    color: #CC0066;
+    text-decoration: none;
 }
 
 .header_column {
