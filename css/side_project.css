@@ -1,0 +1,34 @@
+.side_project_container{
+    margin: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start
+}
+
+.side_project_object{
+   width: 40rem;
+   height: 25rem;
+   border: #3CA19F solid 0.5rem;
+   margin: 1rem;
+}
+
+.container_image{
+    display: block;
+    width: 75%;
+    height: 60%;
+    object-fit: contain;
+    margin: 1rem auto;
+}
+
+.container_title{
+    text-align: center;
+}
+
+.main_title{
+    text-align: center;
+}
+
+.container_p{
+    text-align: center;
+    margin: 0.5rem;
+}
