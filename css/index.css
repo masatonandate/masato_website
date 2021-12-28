@@ -4,7 +4,7 @@ main {
 }
 
 .main_title{
-    background-color: #58C1BF;
+    background: linear-gradient(45deg, #a5f3f3, #FFCCCC);
     /* background-color: #CC0066; */
     display: flex;
     /* justify-content: center; */
@@ -45,7 +45,7 @@ main {
     /* color: #3CA19F; */
     color: black;
     text-shadow: 
-    0.05em 0.05em 0 #3CA19F;
+    0.05em 0.05em 0 rgb(60, 161, 159);
     
 }
 
