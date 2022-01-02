@@ -4,14 +4,40 @@ main {
 }
 
 .main_title{
-    background: linear-gradient(45deg, #a5f3f3, #FFCCCC);
-    /* background-color: #CC0066; */
+    /* background: linear-gradient(45deg, #a5f3f3, #FFCCCC); */
+    background: #a5f3f3;
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    
-    
+}
 
+.main_title:hover{
+    animation-name: title_change_color;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes title_change_color {
+    0%{
+        background-color: #a5f3f3;
+    }
+    25%{
+        background: linear-gradient(45deg, #a5f3f3, #FFCCCC, 25%);
+    }
+    50%{
+        /* background: #a5f3f3; */
+        background: linear-gradient(45deg, #a5f3f3, #FFCCCC, 50%);
+    }
+    75%{
+        /* background: #FFCCCC; */
+        background: linear-gradient(45deg, #a5f3f3, #FFCCCC, 75%);
+    }
+    100%{
+        /* background: #FFCCCC; */
+        background: #FFCCCC;
+    }
+    
 }
 
 .home_image_wrapper{
@@ -72,6 +98,10 @@ main {
 .logo_image{
     width: 10rem;
     height: auto;
+}
+
+.logo_image:hover{
+    transform: scale(1.1);
 }
 
 
