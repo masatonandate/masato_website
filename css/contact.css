@@ -3,16 +3,17 @@
     width: 5rem;
 }
 .container_title {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     display: inline-block;
     margin-left: 0.5rem;
 }
 .contact_individual{
     margin: 1rem;
-    border: #58C1BF solid 0.5rem;
+    margin-left: 0;
+    /* border: #58C1BF solid 0.5rem; */
 }
 .contact_title{
-    text-align: center;
+    text-align: left;
 }
 
 .contact_link{
