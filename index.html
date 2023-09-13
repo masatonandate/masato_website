@@ -33,7 +33,7 @@
                     Cal Poly San Luis Obispo interested in full stack web development. This website is a place for me to hone my
                     front end skills outside of the classroom, and it also contains my sideprojects, my resume,
                     and a contact section. My other career intersts include Data Science, UI/UX design, and Artificial Intelligence.
-                    Some of my passions outside of Computer Science is Soccer, Drawing, Beach Volleyball, Graphic Design, and Outdoor 
+                    Some of my passions outside of Computer Science is Soccer, Drawing, Beach Volleyball, and Outdoor 
                     activities. This page will continue to be updated!
                     
                 </p>
@@ -46,6 +46,12 @@
                         <img class = "logo_image" src = "./images/mernstack.png" alt = "mern">
                         <p>I have become proficient with the MERN (Mongo, Express, React, Node) Stack, using the frameworks for my spotify playback visualizer website
                             as well as developing the backend for a fullstack web project called GroupCart.
+                        </p>
+                    </div>
+                    <div class = "key_skills">
+                        <img class = "logo_image" src = "./images/swift.png" alt = "swift">
+                        <p>Proficient in Swift and mobile app development, honed through hands-on experience during my internship as a mobile app developer.
+                             I further strengthened these skills through independent projects, demonstrating an ability to create robust and user-friendly applications.
                         </p>
                     </div>
                     <div class = "key_skills">
@@ -81,25 +87,46 @@
                 <h1 class = "sub_title">Side Projects</h1>
                 <div class = "side_project_container">
                     <div class = "side_project_item">
+                        <img class = "side_project_image" src = "./images/interval-timer.jpg" alt = "Interval-Timer"/>
+                        <h2 class = side_project_title>Interval Timer</h2>
+                        <p class = "side_project_caption">Custom iOS interval timer designed to optimize High-Intensity Interval Training (HIIT) workouts. 
+                            Empowers users to personalize and fine-tune timers for maximum impact, regardless of their fitness goals
+                        </p>
+                        <p class = "side_project_subcaption">Used: SwiftUI</p>
+                    </div>
+                    <div class = "side_project_item">
+                        <img class = "side_project_image" src = "./images/groupcart.jpg" alt = "Groupcart"/>
+                        <h2 class = side_project_title><a href = "https://yellow-water-0ebbee810.2.azurestaticapps.net/" target = "_blank" rel = "nooperner noreferrer">Group Cart</a></h2>
+                        <p class = "side_project_caption">Discover my MERN stack project—a tailored solution for roommates sharing groceries.
+                            Seamlessly developed with MongoDB, Express.js, React, and Node.js, 
+                            this app empowers roommates to sign in, create groups, and collaboratively manage their shopping lists.
+                            Experience the convenience of real-time updates and effortless coordination, enhancing the roommate grocery shopping experience.
+                            Deployed on Azure.
+                        </p>
+                        <p class = "side_project_subcaption">Used: React, Node, Express, React Native, MongoDB, HTML, CSS</p>
+                    </div>
+                    <div class = "side_project_item">
                         <img class = "side_project_image" src = "./images/spotifyvisualizer.png" alt = "Spotify-Visualizer"/>
                         <h2 class = side_project_title><a href = "https://masatonandate.github.io/spotify-visualizer/" target = "_blank" rel = "nooperner noreferrer">Spotify-Visualizer</a></h2>
-                        <p class = "side_project_caption">A website that serves as an alternative to the Spotify's currently playing screen. Allows
-                            users to login, and displays their currently playing songs as a record player or a CD.
+                        <p class = "side_project_caption">Crafted with React and fueled by the Spotify API, my web application offers a real-time visualizer that synchronizes with your current music playback.
+                             Immerse yourself in a dynamic and captivating visual representation of the songs you're enjoying on Spotify.
                         </p>
                         <p class = "side_project_subcaption">Used: React, HTML, CSS, Javascript</p>
                     </div>
                     <div class = "side_project_item">
                         <img class = "side_project_image" src = "./images/mlsXg.png" alt = "MLSXg"/>
                         <h2 class = side_project_title><a href = "https://twitter.com/mlsxGbot" target="_blank" rel = "nooperner noreferrer">MLS xG</a></h2>
-                        <p class = "side_project_caption">A Robot that webscrapes weekly MLS data from FbReference.com, generates a graph in R, 
-                            and then automatically uploads the image to twitter</p>
+                        <p class = "side_project_caption">Designed a custom script that harnesses web scraping techniques to gather MLS expected goals data from FBref.com. 
+                            This data is then processed and transformed into insightful visualizations using R.
+                             As the final touch, the script seamlessly integrates with Twitter's API to automatically post the generated data visualization, 
+                             providing a dynamic snapshot of MLS expected goal statistics to a broader audience</p>
                         <p class = "side_project_subcaption">Used: Python, R</p>
                     </div>
                     <div class = "side_project_item">
                         <img class = "side_project_image" src = "./images/redditnotification.png" alt = "pyNotification"/>
                         <h2 class = side_project_title>Reddit Notification</h2>
                         <p class = "side_project_caption">A Notification program created using Python, searches for a keyword on a subreddit and returns
-                            a 
+                            a notification if the keyword is posted.
                         </p>
                         <p class = "side_project_subcaption">Used: Python</p>
                     </div>
@@ -119,6 +146,9 @@
             </div>
             
         </main>
+        <footer class = "web_footer">
+            <a href = "https://github.com/masatonandate/masato_website" target = "_blank" rel = "nooperner noreferrer">GitHub Link For This Page</a>
+        </footer>
         <script src = "./javascript/script.js"></script>
     </body>
 </html>
